@@ -38,10 +38,6 @@ body {
     color: black;
 }
 
-.section {
-    padding: 20px;
-}
-
 .home-section {
     display: flex;
     flex-direction: row;
@@ -116,6 +112,11 @@ body {
     padding: 0;
 }
 
+.menu-section p {
+    max-width: 70ch;
+    text-align: center;
+}
+
 .menu li {
     display: flex;
     flex-direction: column;
@@ -123,6 +124,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px 0;
+    font-weight: bold;
 }
 
 .menu li a img {
